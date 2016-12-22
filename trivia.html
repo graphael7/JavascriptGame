@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="trivia.js"></script>
-    <!-- <script type="text/javascript" src="question.js"></script> -->
+    <script type="text/javascript" src="questions.js"></script>
     <link rel="stylesheet" href="trivia.css">
   </head>
   <body>
@@ -20,45 +20,45 @@
         <td>Television</td>
         <td>History</td>
       </tr>
-      <tr id="player1_strip">
-        <td id="geography100">100</td>
-        <td class="player2-win">100</td>
-        <td>100</td>
-        <td>100 </td>
-        <td>100</td>
-        <td>100</td>
+      <tr id="100">
+        <td class="geography">100</td>
+        <td class="sports" class="player2-win">100</td>
+        <td class="animals">100</td>
+        <td class="science">100 </td>
+        <td class="television">100</td>
+        <td class="history">100</td>
       </tr>
-      <tr id="player1_strip">
-        <td class="player1-win">200</td>
-        <td>200</td>
-        <td>200</td>
-        <td>200 </td>
-        <td>200</td>
-        <td>200</td>
+      <tr id="200">
+        <td class="geography" class="player1-win">200</td>
+        <td class="sports">200</td>
+        <td class="animals">200</td>
+        <td class="science">200 </td>
+        <td class="television">200</td>
+        <td class="history">200</td>
       </tr>
-      <tr id="player1_strip">
-        <td>300</td>
-        <td>300</td>
-        <td>300</td>
-        <td>300 </td>
-        <td>300</td>
-        <td>300</td>
+      <tr id="300">
+        <td class="geography">300</td>
+        <td class="sports">300</td>
+        <td class="animals">300</td>
+        <td class="science">300 </td>
+        <td class="television">300</td>
+        <td class="history">300</td>
       </tr>
-      <tr id="player1_strip">
-        <td>400</td>
-        <td>400</td>
-        <td>400</td>
-        <td>400 </td>
-        <td>400</td>
-        <td>400</td>
+      <tr id="400">
+        <td class="geography">400</td>
+        <td class="sports">400</td>
+        <td class="animals">400</td>
+        <td class="science">400 </td>
+        <td class="television">400</td>
+        <td class="history">400</td>
       </tr>
-      <tr id="player1_strip">
-        <td>500</td>
-        <td>500</td>
-        <td>500</td>
-        <td>500</td>
-        <td>500</td>
-        <td>500</td>
+      <tr id="500">
+        <td class="geography">500</td>
+        <td class="sports">500</td>
+        <td class="animals">500</td>
+        <td class="science">500</td>
+        <td class="television">500</td>
+        <td class="history">500</td>
       </tr>
     </table>
 
@@ -67,7 +67,8 @@
 
     <div id="left-col">
       <ul>
-        <li id = "player1-score" class="big">Player1</li>
+        <li class="big">Player1</li>
+        <li id = "player1-score"></li>
       </ul>
     </div>
 
@@ -81,19 +82,18 @@
     <div class="">
       <form id="frm1" class="" method="post" action="">
         <label class="">
-          <input id="" class="" type="hidden" name=""   value="">
           <span class="question">Question:</span>
           <br>
           <br>
         </label>
 
         <label class="">
-          <input id="" class="" type="text" name="fall"   value="">
+          <input id="" class="" type="text" name="answer" value="">
           <br>
           <br>
           <span class="">Answer:</span>
         </label>
-        <button onclick="myFunction()">Submit</button>
+        <button type="submit" name="submit" >Submit</button>
       </form>
     </div>
 
