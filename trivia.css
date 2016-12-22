@@ -1,0 +1,52 @@
+.racer_table td {
+  background-color: white;
+  height: 75px;
+  width: 250px;
+  border: 1px solid black;
+}
+
+.container {
+  text-align: center;
+}
+
+.racer_table td.player1-win {
+  background-color: lightblue;
+}
+
+.racer_table td.player2-win  {
+  background-color: lightgreen;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+#left-col {
+  float:left;
+  height: 175px;
+  width:500px;
+  background:lightblue;;
+}
+#right-col {
+  float:right;
+  height: 175px;
+  width:500px;
+  background:lightgreen;
+}
+
+
+https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSUhCSA6xmFW0KZKWY1qt5o4qTPMKLjEwqU6IU3oS8yv-3Hufpm
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSyzBFrX3ZTFllK7hrznL6aD2vN8wkaWQZ71MvDCcDv0YS2lCm*/
+
+    Contact GitHub API Training Shop Blog About
