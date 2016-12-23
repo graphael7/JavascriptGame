@@ -8,7 +8,8 @@
 
 body {
   background-size: auto;
-  background-image: url("http://vignette4.wikia.nocookie.net/gameshows/images/8/89/JeopardyS26aHD09-10.png/revision/latest?cb=20120619210216");
+  background-color: blue;
+  /*background-image: url("http://vignette4.wikia.nocookie.net/gameshows/images/8/89/JeopardyS26aHD09-10.png/revision/latest?cb=20120619210216");*/
 }
 
 
@@ -18,7 +19,7 @@ body {
 }
 
 .racer_table td.player1-win {
-  background-color: lightblue;
+  background-color: red;
 }
 
 .racer_table td.player2-win  {
