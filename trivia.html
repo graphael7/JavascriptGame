@@ -10,8 +10,14 @@
     <link rel="stylesheet" href="trivia.css">
   </head>
   <body>
-    <h2 class="container">Jeopardy Jr</h2>
-    <table class="racer_table">
+    <h2 class="container big">Jeopardy Jr</h2>
+    <div class="" style="position: relative;">
+
+
+    <table id= "test2" class="racer_table">
+      <div style="background-image: url('Jeopardy!_Board_1991_c.png'); position: absolute; top: 10px; left: 10px; width:75px;height;250px;">
+    </div>
+
       <tr id="player1_strip">
         <td>US Geography</td>
         <td>Sports</td>
@@ -61,8 +67,10 @@
         <td class="history">500</td>
       </tr>
     </table>
+    </div>
 
     <br></br>
+    <p id = "pick"  >Player 1 pick a Question</p>
     <br></br>
 
     <div id="left-col">
@@ -91,7 +99,7 @@
           <input id="" class="" type="text" name="answer" value="">
           <br>
           <br>
-          <span class="">Answer:</span>
+          <span class="answer">Answer:</span>
         </label>
         <button type="submit" name="submit" >Submit</button>
       </form>
