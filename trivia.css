@@ -3,10 +3,18 @@
   height: 75px;
   width: 250px;
   border: 1px solid black;
+  opacity: .8;
 }
+
+body {
+  background-size: auto;
+  background-image: url("http://vignette4.wikia.nocookie.net/gameshows/images/8/89/JeopardyS26aHD09-10.png/revision/latest?cb=20120619210216");
+}
+
 
 .container {
   text-align: center;
+  color: white;
 }
 
 .racer_table td.player1-win {
@@ -36,14 +44,29 @@
   float:left;
   height: 175px;
   width:500px;
-  background:lightblue;;
+  background:lightblue;
+  opacity: .8;
 }
 #right-col {
   float:right;
   height: 175px;
   width:500px;
   background:lightgreen;
+  opacity: .8;
 }
+
+.question {
+  color: white;
+}
+
+.answer {
+  color: red;
+}
+#pick {
+  color: red;
+  font-size: 3em;
+}
+
 
 
 https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSUhCSA6xmFW0KZKWY1qt5o4qTPMKLjEwqU6IU3oS8yv-3Hufpm
